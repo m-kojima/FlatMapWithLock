@@ -13,6 +13,8 @@
 		D7943D7020DF86E700193996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7943D6E20DF86E700193996 /* Main.storyboard */; };
 		D7943D7220DF86EA00193996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7943D7120DF86EA00193996 /* Assets.xcassets */; };
 		D7943D7520DF86EA00193996 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7943D7320DF86EA00193996 /* LaunchScreen.storyboard */; };
+		D7B1908820DFC5240066E04F /* ObservableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B1908720DFC5240066E04F /* ObservableExtension.swift */; };
+		D7B1908A20DFDAB80066E04F /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B1908920DFDAB80066E04F /* Error.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		D7943D7120DF86EA00193996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7943D7420DF86EA00193996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7943D7620DF86EA00193996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B1908720DFC5240066E04F /* ObservableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableExtension.swift; sourceTree = "<group>"; };
+		D7B1908920DFDAB80066E04F /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				D7943D7120DF86EA00193996 /* Assets.xcassets */,
 				D7943D7320DF86EA00193996 /* LaunchScreen.storyboard */,
 				D7943D7620DF86EA00193996 /* Info.plist */,
+				D7B1908720DFC5240066E04F /* ObservableExtension.swift */,
+				D7B1908920DFDAB80066E04F /* Error.swift */,
 			);
 			path = FlatMapWithLock;
 			sourceTree = "<group>";
@@ -204,7 +210,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B1908A20DFDAB80066E04F /* Error.swift in Sources */,
 				D7943D6D20DF86E700193996 /* ViewController.swift in Sources */,
+				D7B1908820DFC5240066E04F /* ObservableExtension.swift in Sources */,
 				D7943D6B20DF86E700193996 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
